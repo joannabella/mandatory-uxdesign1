@@ -133,7 +133,12 @@ body {
 }
 
 .mds-switch__input {
-  display: none;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  outline: none;
+  opacity: 0;
 }
 
 .mds-switch {
